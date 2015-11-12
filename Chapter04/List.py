@@ -33,8 +33,12 @@ def nest():
     print(rg2)
     g = [sum(row) for row in M]
     print(g)
-
+    square = [[x ** 2, x ** 3, x ** 4] for x in range(4)]
+    print(square)
+    dic = {i: sum(M[i]) for i in range(3)}
+    print(dic)
 
 
 # type_ops()
+
 nest()
