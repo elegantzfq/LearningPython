@@ -4,6 +4,5 @@ f = open('file_test.txt', 'r')
 lines = f.read().split()
 print(lines)
 
-for line in open('file_test.txt', 'r'):
-    print(line)
-
+ff = open(file='file_test.txt', mode='r', encoding='utf-8')
+print(ff.read())
